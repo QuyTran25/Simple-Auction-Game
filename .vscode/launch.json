@@ -1,0 +1,24 @@
+{
+  "$schema": "vscode://schemas/launch",
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Run Server (main_server.py)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/AUCTION_PROJECT_MIDTERM/server/main_server.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/AUCTION_PROJECT_MIDTERM",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: Run Client (client_main.py)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/AUCTION_PROJECT_MIDTERM/client/client_main.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/AUCTION_PROJECT_MIDTERM",
+      "justMyCode": true
+    }
+  ]
+}

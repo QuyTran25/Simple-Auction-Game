@@ -1,0 +1,5 @@
+# Stdlib (socket, threading, json) đã có sẵn trong Python -> không cần cài.
+# Tuỳ chọn (gỡ comment nếu muốn dùng):
+# pytest
+# black
+# flake8
