@@ -7,10 +7,10 @@
       "type": "shell",
       "command": "${command:python.interpreterPath}",
       "args": [
-        "${workspaceFolder}/AUCTION_PROJECT_MIDTERM/server/main_server.py"
+        "${workspaceFolder}/server/main_server.py"
       ],
       "options": {
-        "cwd": "${workspaceFolder}/AUCTION_PROJECT_MIDTERM"
+        "cwd": "${workspaceFolder}"
       },
       "problemMatcher": [],
       "presentation": {
@@ -19,14 +19,30 @@
       }
     },
     {
-      "label": "Run Client",
+      "label": "Run Client (Console)",
       "type": "shell",
       "command": "${command:python.interpreterPath}",
       "args": [
-        "${workspaceFolder}/AUCTION_PROJECT_MIDTERM/client/client_main.py"
+        "${workspaceFolder}/client/client_main.py"
       ],
       "options": {
-        "cwd": "${workspaceFolder}/AUCTION_PROJECT_MIDTERM"
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "Run Client (GUI)",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": [
+        "${workspaceFolder}/client/client_ui.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
       },
       "problemMatcher": [],
       "presentation": {
